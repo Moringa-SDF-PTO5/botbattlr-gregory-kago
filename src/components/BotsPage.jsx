@@ -21,7 +21,7 @@ function BotsPage() {
   // Function to fetch bots from the API
   const getBots = async () => {
     try {
-      const response = await fetch("http://localhost:3000/bots");
+      const response = await fetch("https://bots-json-api.onrender.com/bots");
       const data = await response.json();
       setBots(data);
     } catch (error) {
