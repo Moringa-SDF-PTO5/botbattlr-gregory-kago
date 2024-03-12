@@ -1,0 +1,32 @@
+/* components/YourBotArmy.css */
+
+.bot-army-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  overflow-x: auto;
+  margin-bottom: 20px;
+  margin-left: 10px; /* Add margin to the left */
+  margin-right: 10px; /* Add margin to the right */
+}
+
+.bot-army-grid li {
+  border: 2px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.bot-army-grid li img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 6px;
+}
+
+.bot-army-grid li p {
+  font-size: 13px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
